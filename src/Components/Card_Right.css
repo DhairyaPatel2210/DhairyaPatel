@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Gotham_bold";
+    src: url("../Fonts/GothamBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Gotham_medium";
+    src: url("../Fonts/Gotham-Thin.otf") format("opentype");
+}
+  
+
+.Card-Main-Class{
+    height: 60vh;
+    width: 100%;
+    padding-bottom: 8rem;
+}
+
+.Card-Main-Class .Card{
+    width: 90%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.Card-Main-Class .Card .left-section{
+    height: 60vh;
+    width: 50%;
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 4.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Card-Main-Class .Card .left-section img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Card-Main-Class .Card .right-section{
+    height: 50vh;
+    width: 55%;
+    margin-left: -5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6CB4EE;
+    border-radius: 10px;
+}
+
+.Card-Main-Class .Card .right-section .Project-Name{
+    min-height: 30%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card-Main-Class .Card .right-section .Description{
+    min-height: 60%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.5rem;
+}
+
+.Card-Main-Class .Card .right-section .Links{
+    min-height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color:aqua; */
+}
+
+.Card-Main-Class .Card .right-section .Links img{
+    height: 25px;
+    width: 25px;
+    padding-right: 0.5rem;
+    padding-top: 0.2rem;
+}
+
+h1{
+    font-family: Gotham_bold;
+}
+
+h2{
+    font-family : Gotham_medium;
+}
+
+@media only screen and (max-width: 977px) {
+    .Card-Main-Class{
+        height: 70vh;
+    }
+
+
+    .Card-Main-Class .Card{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .Card-Main-Class .Card .right-section{
+        width: 95%;
+        height: 50%;
+        border-radius: 0px 0px 10px 10px;
+        margin-left: 0;
+    }
+
+    .Card-Main-Class .Card .left-section{
+        width: 95%;
+        height: 50%;
+        margin: 0%;
+        z-index: 10;
+        padding-left: 0;
+        background-color: white;
+    }
+
+    .Card-Main-Class .Card .left-section img{
+        width: 90%;
+        height: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .Card-Main-Class .Card .right-section .Project-Name{
+        align-items: center;
+    }
+
+    .Card-Main-Class .Card .right-section .Links img{
+        height: 25px;
+        width: 25px;
+        padding-right: 0.5rem;
+        padding-bottom: 0.3rem;
+    }
+
+}

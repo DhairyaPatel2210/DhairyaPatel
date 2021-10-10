@@ -1,0 +1,22 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+.Nav{
+    background-color: #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 5;
+    position: fixed;
+}
+
+@media only screen and (max-width: 977px) {
+    .Nav{
+        display: flex;
+        flex-direction: row;
+        align-items: space-around;
+    }
+}

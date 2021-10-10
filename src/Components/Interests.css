@@ -1,0 +1,52 @@
+.Interests-Main-Class{
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Interests-Main-Class .Upper-Section{
+    width: 90%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.Interests-Main-Class .Lower-Section{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6CB4EE;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+}
+
+.Interests-Main-Class .Upper-Section .Swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+@media only screen and (max-width: 977px) {
+    .Interests-Main-Class{
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .Interests-Main-Class .Upper-Section, .Interests-Main-Class .Lower-Section {
+        width: 90%;
+    }
+
+}

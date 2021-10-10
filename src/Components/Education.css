@@ -1,0 +1,62 @@
+.Education-Section{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6CB4EE;
+}
+
+.Education-Section .Education-Year{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Education-Section .Education-Circle{
+    height: 100%;
+    width: 2.3rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Education-Section .Education-Circle .Inside-Circle{
+    height: 60%;
+    width: 60%;
+    background-color: #353839;
+    border-radius: 50%;
+}
+
+
+
+.Education-Section .Education-Degree{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Education-Section h1{
+    font-size: 30px;
+}
+
+
+@media only screen and (max-width: 977px){
+    .Education-Section .Education-Degree{
+        width: 40%;
+    }
+
+    .Education-Section .Education-Year{
+        width: 40%;
+    }
+
+    .Education-Section h1{
+        font-size: 16px;
+    }
+}

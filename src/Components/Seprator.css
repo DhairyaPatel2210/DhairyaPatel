@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.Seprator-Main{
+    display: flex;
+    width: 95.5%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4.5%;
+    padding-top: 2rem;
+    color: white;
+    font-size: 16px;
+    font-family: Gotham_bold;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    background-color: #353839;
+}
+
+.Seprator-Main .Title{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Seprator-Main .left-line, .right-line{
+    height: 0.2rem;
+    width: 35%;
+    background-color: white;
+    border-radius: 2px;
+}
+
+
+.Seprator-Main .Circle{
+    width: 10%;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #353839;
+}
+
+@media only screen and (max-width: 977px){
+    .Seprator-Main {
+        width: 100%;
+        padding-left: 0;
+        font-size: 12px;
+    }
+
+    .Seprator-Main .left-line, .right-line{
+        width: 25%;
+    }
+
+    .Seprator-Main .Title{
+        width: 45%;
+    }
+}

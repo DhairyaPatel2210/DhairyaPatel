@@ -1,0 +1,63 @@
+*{
+    margin : 0;
+    padding: 0;
+    scroll-behavior: smooth
+}
+
+
+@font-face {
+    font-family: "Gotham_bold";
+    src: url("../Fonts/GothamBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Gotham_medium";
+    src: url("../Fonts/Gotham-Thin.otf") format("opentype");
+}
+
+
+.main-page{
+    width: 100%;
+    height: 100vh;
+}
+
+.projects{
+    background-color: #353839;
+}
+
+section{
+    text-decoration: none;
+}
+
+.Skills{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #353839;
+}
+
+.Skills .Each-Skill{
+    width: 20rem;
+    padding: 2rem;
+}
+
+#About,.Education,.Interests{
+    background-color: #353839;
+}
+
+.Interests{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 4.5%;
+}
+
+@media only screen and (max-width: 977px) {
+    .Interests{
+        margin-left: 0;
+    }
+
+}
