@@ -37,6 +37,9 @@ import interest_7 from "../Images/7.jpg"
 import interest_8 from "../Images/8.jpg"
 import interest_9 from "../Images/9.png"
 import interest_10 from "../Images/10.png"
+import interest_11 from "../Images/11.png"
+import interest_12 from "../Images/12.png"
+import interest_13 from "../Images/13.png"
 
 export const Projects = [
     {
@@ -205,7 +208,11 @@ export const Interior_data = [
     interest_7,
     interest_8,
     interest_9,
-    interest_10
+    interest_10,
+    interest_11,
+    interest_12,
+    interest_13
+
 ]
 
 export const Exterior_data = [

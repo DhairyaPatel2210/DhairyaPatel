@@ -82,7 +82,8 @@ a{
 
 @media only screen and (max-width: 977px) {
     .Nav{
-        top: 90%;
+        top:90%;
+        bottom: 0;
         width: 100%;
         height: 10%;
 
